@@ -18,3 +18,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-external-links'
 gem 'jekyll-redirect-from'
 gem 'jekyll-titles-from-headings'
+
+gem 'webrick'
