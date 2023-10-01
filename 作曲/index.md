@@ -1,8 +1,9 @@
 ---
-layout: auto_index
-title: Directory Index
+layout: default
 ---
 
-# Index for {{ page.dir }}
-
-- [Back to parent directory](..)
+{% for page in site.pages %}
+{% if page.path contains page.dir %}
+- [{{ page.basename }}]({{ page.url }})
+{% endif %}
+{% endfor %}
