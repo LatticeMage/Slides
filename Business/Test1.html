@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reveal.js Presentation Test</title>
-
-    <!-- reveal.js CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/css/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/css/theme/white.min.css">
 </head>
@@ -50,7 +48,6 @@
         </div>
     </div>
 
-    <!-- reveal.js JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/js/reveal.min.js"></script>
     <script>
         Reveal.initialize({
@@ -58,7 +55,17 @@
             progress: true,
             center: true,
             hash: true,
-            // add any other configuration options you want
+            // The callback function when the Reveal slides are ready
+            ready: function(event) {
+                let tocContent = "";
+                // Iterate over all sections (slides)
+                document.querySelectorAll(".slides > section:not(#toc) h2").forEach(function(title, index) {
+                    const slideNumber = index + 1; // Adjusting for 0 index
+                    tocContent += `<p><a href="#/${slideNumber}">◇ ${title.innerHTML}</a></p>`;
+                });
+                // Populate the ToC slide
+                document.querySelector("#toc").innerHTML += tocContent;
+            }
         });
     </script>
 </body>
