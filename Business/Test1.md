@@ -2,10 +2,15 @@
 layout: reveal
 ---
 
-# Slide 1
-This is the first slide.
-
----
-
-# Slide 2
-This is the second slide.
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h2>Slide 1</h2>
+            <p>This is the first slide.</p>
+        </section>
+        <section>
+            <h2>Slide 2</h2>
+            <p>This is the second slide.</p>
+        </section>
+    </div>
+</div>
