@@ -2,6 +2,8 @@
 layout: slides
 ---
 
+# Why Learn AI so Hard
+
 <style>
 td {
   width: 400px; /* Set the width of each table cell */
@@ -13,8 +15,6 @@ td img {
   height: auto; /* Let the image height adjust automatically */
 }
 </style>
-
-# 為什麼學AI很難
 
 <div class="slide">
 ## 為什麼學AI很難
