@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: auto_index
 ---
 
 {% for page in site.pages %}
