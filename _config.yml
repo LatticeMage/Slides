@@ -43,11 +43,18 @@ defaults:
     values:
       layout: "default"
 
+exclude:
+  - _drafts
+  - README.md
+  - _shared
+
+
 plugins:
   - jekyll-external-links
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
