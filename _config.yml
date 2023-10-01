@@ -37,7 +37,6 @@ collections:
   directories:
     output: true
 
-
 kramdown:
   parse_block_html: true
 
@@ -49,12 +48,10 @@ defaults:
       layout: "default"
   - 
     scope:
-      path: "_directories"
+      path: ""
       type: "directories"
     values:
       layout: "directory"
-
-
 
 
 exclude:
