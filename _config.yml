@@ -28,7 +28,6 @@ url: "https://slides.posetmage.com" # the base hostname & protocol for your site
 site_favicon: favicon.ico
 includes_dir: _shared/_includes
 layouts_dir: _shared/_layouts
-plugins_dir: _shared/_plugins
 
 # Build settings
 remote_theme: pages-themes/hacker@v0.2.0
@@ -46,19 +45,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - 
-    scope:
-      path: ""
-      type: "directories"
-    values:
-      layout: "directory"
-
-
-exclude:
-  - _drafts
-  - README.md
-  - _shared
-
 
 plugins:
   - jekyll-external-links
