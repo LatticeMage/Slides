@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css?v=2de2fbe143f50755247818f2425fc5a669be9e5e">
+  <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>講義 程式 01 | Slides</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="講義 程式 01" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="“Slides of LatticeMage/PosetMage”" />
+<meta property="og:description" content="“Slides of LatticeMage/PosetMage”" />
+<link rel="canonical" href="http://localhost:4001/%E7%A8%8B%E5%BC%8F/%E7%A8%8B%E5%BC%8F%2001.html" />
+<meta property="og:url" content="http://localhost:4001/%E7%A8%8B%E5%BC%8F/%E7%A8%8B%E5%BC%8F%2001.html" />
+<meta property="og:site_name" content="Slides" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="講義 程式 01" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"“Slides of LatticeMage/PosetMage”","headline":"講義 程式 01","url":"http://localhost:4001/%E7%A8%8B%E5%BC%8F/%E7%A8%8B%E5%BC%8F%2001.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .sidebar {
+      position: fixed;
+      width: 150px; /* Reduced from 200px */
+      padding: 1em;
+      overflow: auto;
+      height: 100vh;
+    }
+
+    .content {
+      margin-left: 200px; /* Reduced from 210px */
+    }
+
+    /* Reduced line height and spacing for ToC items */
+    .sidebar p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a id="a-title" href="/">
+        <h1>Slides</h1>
+      </a>
+      <h2>"Slides of LatticeMage/PosetMage"</h2>
+
+      <section id="downloads">
+        
+        <a href="https://github.com/latticemage/Slides" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+      </section>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="sidebar" id="toc"></div>
+    <div class="content">
+      <section id="main_content">
+        <h1 id="講義-程式-01">講義 程式 01</h1>
+
+<h6 id="tags-_講義-程式">tags: <code class="language-plaintext highlighter-rouge">_講義 程式</code></h6>
+
+<h2 id="powershell操作">Powershell操作</h2>
+<ul>
+  <li>paste
+    <ul>
+      <li>滑鼠右鍵</li>
+      <li>shift + insert</li>
+    </ul>
+  </li>
+  <li>中斷(清掉)
+    <ul>
+      <li>ctrl + c</li>
+    </ul>
+  </li>
+  <li>換資料夾(change directory)
+    <ul>
+      <li>cd</li>
+    </ul>
+  </li>
+  <li>列出檔案(list files)
+    <ul>
+      <li>ls</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="python排版是程式碼的一部分">python排版是程式碼的一部分</h2>
+<p>四個空白 or 兩個空白 or 一個tab<br />
+整份code統一一種</p>
+<h2 id="雙引號">雙引號</h2>
+<p>”</p>
+
+<h2 id="firstpy">first.py</h2>
+<ul>
+  <li>python first.py</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = 3
+y = 4
+
+for i in range(8):	
+    print(i)
+
+for y in range(8):	
+    print(y)
+
+</code></pre></div></div>
+
+<h2 id="double-loop">double loop</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = 3
+y = 4
+
+for i in range(8):	
+    print("i is ", i)
+    for y in range(8):
+        print("y is" , y)
+        pass
+    pass
+
+</code></pre></div></div>
+
+<h2 id="9x9-table">9x9 table</h2>
+
+<h1 id="-assign">=: assign</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a = 3
+x = 3
+y = 4
+z = x + y #7
+
+x = x + y
+a += y # 上一行的縮寫
+# x is 7
+# a is 7
+
+for i in range(9):
+    this_line = ""
+    for y in range(9):
+    	# str() 轉字串string
+        this_line += str((i + 1) * (y + 1))
+        this_line += ", "
+    print(this_line)
+
+</code></pre></div></div>
+
+<h3 id="隨機生成">隨機生成</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
+
+#Generate 5 random numbers between 10 and 30
+
+randomlist = random.sample(range(10, 30), 5)
+
+print(randomlist)
+
+aaa = -1
+for z in randomlist:
+	if aaa &lt; z:
+		aaa = z
+
+print("max is " + str(aaa))
+
+</code></pre></div></div>
+<h2 id="筆記">筆記</h2>
+<p>設定值為尋找最小時,設定範圍中最大(最大值+1),反之則相反(最小值-1)
+(range(10,30),5),10至30中抽區5組隨機數</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AAA&lt;Z  
+AAA=Z
+Z大於AAA,則下次回圈AAA = Z 以此類推
+</code></pre></div></div>
+
+<h2 id="取值-">取值 []</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
+
+#Generate 15 random numbers between 10 and 30
+
+randomlist = random.sample(range(10, 30), 15)
+
+for z in range(15):
+	print(randomlist[z])
+</code></pre></div></div>
+
+<p>## 
+for z in range(15)
+      print(randomlist[z])
+      “列”出輸出結果15項,並可記錄輸中的隨機值PK.
+##</p>
+<ul>
+  <li>資料型態
+    <ul>
+      <li>bool 只有true或false</li>
+      <li>int 整數 -&gt; 餘數 商數</li>
+      <li>float 浮點小數 ex 3.3</li>
+      <li>string 字串</li>
+    </ul>
+  </li>
+  <li>for 迴圈 持續做類似事情</li>
+  <li>if 條件判斷
+    <ul>
+      <li>資料更新</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="下次上課內容">下次上課內容</h2>
+<p>排版
+swap
+hello world</p>
+
+      </section>
+    </div>
+  </div>
+
+  <div style="height: 50px;">
+    <p align="center"><img src="https://posetmage.com/Images/Icon/LatticeMage_t.png" Height="32" />
+      <a href="/">LatticeMage</a>
+      <img src="https://posetmage.com/Images/Icon/LatticeMage_t.png" Height="32" />
+    </p>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Fetch all the headers
+      var headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  
+      // Prepare an empty object to store our ToC
+      var toc = [];
+  
+      // Loop over the headers
+      headers.forEach(function(header, index) {
+        // Skip first two headers (site title and description)
+        if (index < 2) return;
+  
+        // Give each header an id
+        var id = 'header-' + index;
+        header.id = id;
+  
+        // Push the header to our ToC
+        toc.push({
+          id: id,
+          text: header.innerText,
+          tagName: header.tagName
+        });
+      });
+  
+      // Get the current page path and remove the file name to get the parent directory
+      var path = '程式/程式 01.md';
+      var parentDirectory = path.substring(0, path.lastIndexOf('/'));
+      // Remove the final character if it's a "/"
+      if (parentDirectory[parentDirectory.length - 1] === "/") {
+          parentDirectory = parentDirectory.substring(0, parentDirectory.length - 1);
+        }
+      // Add a leading '/' to ensure the link is treated as an absolute path
+      if (parentDirectory[0] !== '/') {
+        parentDirectory = '/' + parentDirectory;
+      }
+
+      // Prepare an empty string to build our ToC HTML
+      var tocHTML = '<p><a href="' + parentDirectory + '">Previous Layer</a></p>'; // Include the link to parent directory
+    
+      // Loop over our ToC
+      toc.forEach(function(tocItem) {
+        // Add an indent based on the header level
+        var indent = parseInt(tocItem.tagName.substring(1)) - 1;
+  
+        // Add the item to the ToC HTML
+        tocHTML += '<p style="text-indent: ' + indent + 'em;"><a href="#' + tocItem.id + '">' + tocItem.text + '</a></p>';
+      });
+  
+      // Inject our ToC into the div
+      document.getElementById('toc').innerHTML = tocHTML;
+    });
+  </script>
+</body>
+
+</html>

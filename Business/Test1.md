@@ -1,6 +1,12 @@
 ---
-layout: reveal
+layout: default
 ---
+
+# Test1
+
+<link rel="stylesheet" href="{{ site.baseurl }}/_shared/reveal.js/dist/reveal.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/_shared/reveal.js/dist/theme/white.css">
+
 
 <div class="reveal">
     <div class="slides">
@@ -14,3 +20,14 @@ layout: reveal
         </section>
     </div>
 </div>
+
+<script src="{{ site.baseurl }}/_shared/reveal.js/dist/reveal.js"></script>
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+    });
+</script>
+

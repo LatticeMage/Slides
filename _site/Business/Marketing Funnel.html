@@ -1,0 +1,24 @@
+<script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
+
+<div class="mermaid">
+%% Code for flowchart below
+graph TD
+    subgraph Marketing Funnel
+    a2[\____________________SEO____________________/]
+    a2-->yt[\______________Youtube______________/]
+    yt-->twitch[\____________Twitch___________/]
+    twitch-->a5[\________Patreon________/]
+    a5-->discord[\_____Discord_____/]
+    discord-->a[\High Price<br> Subscribing/]
+    end
+
+
+    style a2 fill:#A5F2F2;
+    style yt fill:#4CE5E5;
+    style twitch fill:#19B2B2;
+    style a5 fill:#117C7C,color:white;
+    style discord fill:#0A4747,color:white;
+    classDef b6 fill:#062C2C,color:white;
+    class a b6
+    
+</div>
