@@ -2,7 +2,7 @@
 
 Good
 
-<svg id="mindmap" style="width: 200; height: 300"></svg>
+<svg id="mindmap" style="width: 100; height: 100"></svg>
 
 <script src="https://unpkg.com/markmap-lib@0.14.4/dist/browser/index.min.js"></script>
 <script src="https://unpkg.com/d3@6.7.0/dist/d3.min.js"></script>
