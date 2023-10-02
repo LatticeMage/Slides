@@ -5,31 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mermaid Diagram</title>
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
+<script src="mermaid-config.js" defer></script>
 </head>
 <body>
 
 <div id="mermaid-diagram"></div>
-
-<script>
-  // Fetch the content of funnel.m
-  fetch('./Funnel.mmd')
-    .then(response => response.text())
-    .then(data => {
-      // Set the mermaid configuration
-      mermaid.initialize({
-        startOnLoad: true
-      });
-
-      // Get the div element
-      const diagramDiv = document.getElementById('mermaid-diagram');
-
-      // Render the mermaid diagram
-      mermaid.render('theGraph', data, (svgCode, bindFunctions) => {
-        diagramDiv.innerHTML = svgCode;
-      });
-    })
-    .catch(error => console.error('Error fetching the diagram file:', error));
-</script>
 
 </body>
 </html>
