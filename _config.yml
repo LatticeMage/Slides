@@ -49,6 +49,9 @@ defaults:
     values:
       layout: "default"
 
+exclude:
+  - "*.mm.md"
+
 plugins:
   - jekyll-external-links
   - jekyll-feed
