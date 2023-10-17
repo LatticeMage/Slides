@@ -6,7 +6,7 @@ markmap:
 # Cryptocurrency
 
 ## Introduction
-
+- [強者我朋友](https://www.youtube.com/@taiwancat0227)
 
 ## Risk
 - ![image](https://slides.posetmage.com/Business/Cryptocurrency/Salary%20Other%20vs%20Quant.webp)____________________
