@@ -11,7 +11,7 @@ markmap:
 ## Risk
 - ![image](https://slides.posetmage.com/Business/Cryptocurrency/Salary%20Other%20vs%20Quant.webp)____________________
 
-- ![image](https://slides.posetmage.com/Business/Cryptocurrency/Profit.png)_______
+- ![image](https://slides.posetmage.com/Business/Cryptocurrency/Profit.png)_________
 
 ## High FC, Low VC
 - TIM vs RIM
