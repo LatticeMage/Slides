@@ -1,14 +1,26 @@
 # Future Projects
 
 ## Familiar Godot 4 with vulkan, openxr
+
 * [The Best Games from GMTK Game Jam 2023](https://www.youtube.com/watch?v=tYxZ_LOlFnU)
+* [The Best Games from GMTK Game Jam 2022](https://www.youtube.com/watch?v=XNCGdi2A6fQ)
+
+## UI/UX experience
 
 ## Developing Tools
 * link to task manger?
 * dialog manager
-  * reference: Ren'Py
+  * Godot Plugins:
+    * Nathan Hoad
+    * reference: Ren'Py
 * Act checker
   * [Beat Sheet](https://knowledge.posetmage.com/Art/StoryTelling/Blake%20Snyder.html)
+* Hexagonal Board Battle Chess
+* deck-building
+* character card
+* encyclopedia book system
+* attribute, level, equip system
+* quest
 
 ## state machine AI, AI related algos
 * common AI algo
