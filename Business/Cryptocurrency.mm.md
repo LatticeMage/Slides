@@ -48,13 +48,17 @@ markmap:
       - Note: If a margin call occurs, additional transaction fees are applied.
 
 - Risk Management
+  - if $300 with Leveraged 10 times, meet the variance lose all , will -60
+    - Capital remain $240
+  - if $75 with Leveraged 40 times, meet the variance lose all , will -60
+    - Capital remain $15
   - Poker
-    - NL2: 20 buy-ins, Starting Capital 40.
-    - If promoted successfully, the balance becomes 100.
-    - NL5: 20 buy-ins, Starting Capital 100.
-    - If promoted successfully, the balance becomes 200.
-    - NL10: 20 buy-ins, Starting Capital 200.
-    - If you lose significantly and drop to a little over 100, you'll need to downgrade. 
+    - NL2: 20 buy-ins, Starting Capital $40.
+    - If promoted successfully, the balance becomes $100.
+    - NL5: 20 buy-ins, Starting Capital $100.
+    - If promoted successfully, the balance becomes $200.
+    - NL10: 20 buy-ins, Starting Capital $200.
+    - If you lose significantly and drop to a little over $100, you'll need to downgrade. 
     - This maintains the same ROI over a long period.
 
 - Other Topics
