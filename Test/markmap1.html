@@ -16,18 +16,14 @@
       }
       const markdown = await response.text();
 
-      const { Transformer, Markmap } = window.markmap;
-
-      // Load necessary assets
+      const { Transformer } = window.markmap;
       const transformer = new Transformer();
-      const { root, features } = transformer.transform(markdown);
-      const { styles, scripts } = transformer.getUsedAssets(features);
 
-      if (styles) Markmap.loadCSS(styles);
-      if (scripts) Markmap.loadJS(scripts, { getMarkmap: () => window.markmap });
+      // Transform the markdown into a markmap data structure
+      const { root } = transformer.transform(markdown);
 
-      // Initialize the markmap
-      Markmap.create("#mindmap", null, root);
+      // Create the markmap
+      window.Markmap.create('#mindmap', null, root);
     } catch (error) {
       console.error('There has been a problem with your fetch operation:', error);
     }
