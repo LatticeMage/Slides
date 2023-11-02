@@ -1,33 +1,43 @@
-<svg id="mindmap" style="width: 700px; height: 100vh;"></svg>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Markmap</title>
 
-<!-- Load the latest version of d3 library -->
-<script src="https://unpkg.com/d3/dist/d3.min.js"></script>
+  <!-- Load the latest version of d3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 
-<!-- Load the latest version of markmap library -->
-<script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15.4/dist/browser/index.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.4/dist/browser/index.min.js"></script>
+  <!-- Load the latest version of markmap library -->
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15.4/dist/markmap.min.js"></script>
 
-<script>
-  async function loadMarkdown() {
-    try {
-      const response = await fetch('./Cryptocurrency.mm');
-      if (!response.ok) {
-        throw new Error('Network response was not ok: ' + response.statusText);
+  <!-- Load the latest version of markmap view library -->
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.4/dist/view.min.js"></script>
+</head>
+<body>
+  <svg id="mindmap" style="width: 700px; height: 100vh;"></svg>
+
+  <script>
+    async function loadMarkdown() {
+      try {
+        const response = await fetch('./Cryptocurrency.md'); // Change the file extension to .md if your markdown file is named "Cryptocurrency.md"
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        const markdown = await response.text();
+
+        const { transform } = markmap;
+        const transformed = transform(markdown);
+
+        // Create the markmap
+        markmap('#mindmap', transformed);
+      } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
       }
-      const markdown = await response.text();
-
-      const { Transformer } = window.markmap;
-      const transformer = new Transformer();
-
-      // Transform the markdown into a markmap data structure
-      const { root } = transformer.transform(markdown);
-
-      // Create the markmap
-      window.Markmap.create('#mindmap', null, root);
-    } catch (error) {
-      console.error('There has been a problem with your fetch operation:', error);
     }
-  }
 
-  loadMarkdown();
-</script>
+    loadMarkdown();
+  </script>
+</body>
+</html>
