@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Markmap Visualization</title>
+  <!-- Include Markmap's JavaScript and any dependencies it might have -->
+  <script src="https://unpkg.com/d3@6"></script>
+  <script src="https://unpkg.com/markmap-lib/dist/markmap.min.js"></script>
+</head>
+<body>
+
+  <!-- The container for the markmap -->
+  <div id="markmap"></div>
+
+  <script>
+    // Function to initialize the markmap
+    function createMarkmap() {
+      // Your code to load the input.mm.md content and create the markmap goes here
+      // For example, using fetch to load content from an md file:
+      fetch('Cryptocurrency.mm.md')
+        .then(response => response.text())
+        .then(text => {
+          // Initialize the markmap with the markdown content
+          markmap.Markmap.create('#markmap', null, text);
+        });
+    }
+
+    // Call the function to initialize the markmap after the document has loaded
+    document.addEventListener('DOMContentLoaded', createMarkmap);
+  </script>
+
+</body>
+</html>
