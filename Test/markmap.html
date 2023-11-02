@@ -10,7 +10,7 @@
 <script>
   async function loadMarkdown() {
     try {
-      const response = await fetch('./Cryptocurrency.mm.md');
+      const response = await fetch('./Cryptocurrency.mm');
       if (!response.ok) {
         throw new Error('Network response was not ok: ' + response.statusText);
       }
