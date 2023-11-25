@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This HTML</title>
+</head>
+<body>
+    <!-- Divs where the content of 1.html and 2.html will be displayed -->
+    <div id="content1"></div>
+    <div id="content2"></div>
+
+    <script>
+        // Function to load content from a specified URL into a given element
+        function loadHTML(url, elementId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error fetching content:', error);
+                });
+        }
+
+        // Load the contents of 1.html and 2.html
+        loadHTML('./2023_11_b1.html', 'content1');
+        loadHTML('./2023_11_b2.html', 'content2');
+    </script>
+</body>
+</html>
