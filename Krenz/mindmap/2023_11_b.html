@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This HTML</title>
+    <style>
+        /* Styles to ensure the containers take up the necessary space */
+        #content1, #content2 {
+            width: 100%; /* Adjust width as needed */
+            border: 1px solid #ccc; /* Optional, just for visibility */
+            margin-bottom: 10px; /* Spacing between containers */
+        }
+    </style>
 </head>
 <body>
     <!-- Divs where the content of 1.html and 2.html will be displayed -->
@@ -17,7 +25,11 @@
             fetch(url)
                 .then(response => response.text())
                 .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
+                    const container = document.getElementById(elementId);
+                    container.innerHTML = data;
+
+                    // Optionally, adjust the height based on the content
+                    // container.style.height = container.scrollHeight + 'px';
                 })
                 .catch(error => {
                     console.error('Error fetching content:', error);
