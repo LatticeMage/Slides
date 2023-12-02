@@ -1,14 +1,35 @@
 <script src="https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js"></script>
 
 <div class="mermaid">
-    gantt
-    title A Gantt Diagram
-    dateFormat YYYY-MM-DD
-    section Section
-        A task          :a1, 2014-01-01, 30d
-        Another task    :after a1, 20d
-    section Another
-        Task in Another :2014-01-12, 12d
-        another task    :24d
+gantt
+    title       Weekly Cycle Gantt Chart
+    dateFormat  ddd
+    axisFormat  %a
+
+    section A section
+    Completed task            :done,    des1, Sun, 2d
+    Active task               :active,  des2, Tue, 3d
+    Future task               :         des3, Fri, 2d
+    Future task2              :         des4, Sat, 2d
+
+    section Critical tasks
+    Completed task in the critical line :crit, done, Sun, 1d
+    Implement parser and jison          :crit, done, Mon, 2d
+    Create tests for parser             :crit, active, Wed, 3d
+    Future task in critical line        :crit, Fri, 2d
+    Create tests for renderer           :Thu, 2d
+    Add to mermaid                      :Fri, 1d
+    Functionality added                 :milestone, Sat, 1d
+
+    section Documentation
+    Describe gantt syntax               :active, a1, Mon, 3d
+    Add gantt diagram to demo page      :Thu, 1d
+    Add another diagram to demo page    :doc1, Fri, 2d
+
+    section Last section
+    Describe gantt syntax               :Sat, 3d
+    Add gantt diagram to demo page      :Tue, 1d
+    Add another diagram to demo page    :Wed, 2d
+
     
 </div>
