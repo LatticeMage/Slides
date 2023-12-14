@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table id="myTable">
+        <tbody></tbody>
+    </table>
+
+    <script>
+        const table = document.getElementById('myTable');
+        const birthDate = new Date(1992, 1, 13); // Months are 0-indexed in JavaScript
+        const todayDate = new Date(); // Current date
+        const targetDate = new Date(2025, 11, 30); // Target date
+        const oneWeek = 1000 * 60 * 60 * 24 * 7;
+
+        // Calculations for past time
+        const pastYears = todayDate.getFullYear() - birthDate.getFullYear();
+        const birthWeekNumber = Math.floor((birthDate - new Date(birthDate.getFullYear(), 0, 1)) / oneWeek);
+        const todayWeekNumber = Math.floor((todayDate - new Date(todayDate.getFullYear(), 0, 1)) / oneWeek);
+        const pastWeeks = todayWeekNumber - birthWeekNumber;
+        const adjustedPastYears = pastYears - (pastWeeks < 0 ? 1 : 0);
+        const adjustedPastWeeks = (pastWeeks < 0 ? pastWeeks + 52 : pastWeeks);
+
+        // Calculations for future time
+        const targetYears = targetDate.getFullYear() - birthDate.getFullYear();
+        const targetWeekNumber = Math.floor((targetDate - new Date(targetDate.getFullYear(), 0, 1)) / oneWeek);
+        const targetWeeks = targetWeekNumber - birthWeekNumber;
+        const adjustedTargetYears = targetYears - (targetWeeks < 0 ? 1 : 0);
+        const adjustedTargetWeeks = (targetWeeks < 0 ? targetWeeks + 52 : targetWeeks);
+
+        // Filling cells with color
+        for (let i = 0; i <= 53; i++) {
+            const row = table.insertRow();
+            for (let j = 0; j <= 100; j++) {
+                const cell = row.insertCell();
+                if (j <= adjustedTargetYears || (j === adjustedTargetYears + 1 && i <= adjustedTargetWeeks + 1)) {
+                    cell.style.backgroundColor = 'red'; // Future time in red
+                }
+                if (j <= adjustedPastYears || (j === adjustedPastYears + 1 && i <= adjustedPastWeeks + 1)) {
+                    cell.style.backgroundColor = 'black'; // Past time in black
+                }
+            }
+        }
+    </script>
+</body>
+</html>
