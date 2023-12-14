@@ -22,12 +22,14 @@
         <tbody></tbody>
     </table>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
     <script>
         const table = document.getElementById('myTable');
-        const birthDate = new Date(1992, 1, 13); // Months are 0-indexed in JavaScript
+        const birthDate = new Date(1992, 0, 0); // Months are 0-indexed in JavaScript
         const todayDate = new Date(); // Current date
         const targetDate = new Date(2025, 11, 30); // Target date
         const oneWeek = 1000 * 60 * 60 * 24 * 7;
+        const longevity = 80;
 
         // Calculations for past time
         const pastYears = todayDate.getFullYear() - birthDate.getFullYear();
@@ -44,16 +46,33 @@
         const adjustedTargetYears = targetYears - (targetWeeks < 0 ? 1 : 0);
         const adjustedTargetWeeks = (targetWeeks < 0 ? targetWeeks + 52 : targetWeeks);
 
+        // Define colors in HSV
+        const startColorHSV = [100, 0.8, 1]; // Light green in HSV
+        const endColorHSV = [0, 1, 0.2]; // Dark red in HSV
+        
+        const blueColorHSV = [200, 1, 0.8]; // Dark red in HSV
+
         // Filling cells with color
-        for (let i = 0; i <= 53; i++) {
+        for (let i = 0; i <= 52; i++) {
             const row = table.insertRow();
-            for (let j = 0; j <= 100; j++) {
+            for (let j = 0; j <= longevity; j++) {
                 const cell = row.insertCell();
-                if (j <= adjustedTargetYears || (j === adjustedTargetYears + 1 && i <= adjustedTargetWeeks + 1)) {
-                    cell.style.backgroundColor = 'red'; // Future time in red
+
+                // Calculate the green gradient color based on column number
+                if (j >= 35 && j <= longevity) {
+                    const factor = (j - 35) / (longevity - 35);
+                    const color = chroma.mix(chroma.hsv(...startColorHSV), chroma.hsv(...endColorHSV), factor);
+                    cell.style.backgroundColor = color.hex();
+                
                 }
+                // Fill future time with red
+                if (j <= adjustedTargetYears || (j === adjustedTargetYears + 1 && i <= adjustedTargetWeeks + 1)) {
+                    cell.style.backgroundColor = chroma.hsv(...blueColorHSV).hex();
+                }
+
+                // Fill past time with black
                 if (j <= adjustedPastYears || (j === adjustedPastYears + 1 && i <= adjustedPastWeeks + 1)) {
-                    cell.style.backgroundColor = 'black'; // Past time in black
+                    cell.style.backgroundColor = 'black';
                 }
             }
         }
