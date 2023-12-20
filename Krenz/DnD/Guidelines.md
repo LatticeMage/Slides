@@ -53,7 +53,7 @@ layout: slides
 
 * 參考版面
   * https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Monsters/
-* [語言](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Multiclassing.md)、[陣營](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Alignment.md)
+* [語言](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Languages.md)、[陣營](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Alignment.md)
 * [shop](https://github.com/kwmorris/DnD/blob/master/5e/D%26D%20Shop%20Catalog%2C%20V-1.8.pdf)
 
 <img src="./Guidelines/char%20card.png">
@@ -114,7 +114,7 @@ layout: slides
   * 同步更新 ex: Github
 * 文字編輯
   * Markdown
-  * Obisidian, Hackmd.io .... 
+  * Obsidian, Hackmd.io .... 
 
 <img src="./Guidelines/markdown.png" width="600">
 
