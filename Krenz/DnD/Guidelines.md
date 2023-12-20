@@ -67,7 +67,9 @@ layout: slides
 
 ## 遊戲劇本注意事項
 
-* 遊戲時長要先規定好
+* 先決定好核心體驗
+  * ex: 大亂鬥? boss fight? 大主線劇情體驗? 人情冷暖? 宮鬥?
+* 時長要先規定好
   * 遊戲進程規劃以節點為主
     * ex: 一個節點30min，分為探索20min+打王10min
     * ex: 2hr = 4個大節點
@@ -128,6 +130,7 @@ layout: slides
   * https://opengameart.org/
 * 繪製地圖
   * [tile map editor](https://www.mapeditor.org/)
+  * unity, godot: tilemap export to image
 
 <img src="./Guidelines/opengameart.png" width="600">
 
