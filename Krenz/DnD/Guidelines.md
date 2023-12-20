@@ -41,7 +41,7 @@ layout: slides
 * d20 <img src="https://pawleystudios.com/wp-content/uploads/2020/07/d20-dice-01.png" width="64">
   * 20 完全成功
   * 1 完全失敗
-  * 事件門檻
+* DC(difficult class)
 
 </div>
 
