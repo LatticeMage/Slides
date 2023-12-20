@@ -24,6 +24,7 @@ layout: slides
 
 * 舉例
   * 柏德之門、冰風之谷、絕冬城之夜 使用金盒子的被遺忘國度
+  * 異域鎮魂曲 使用異域
 
 ### reference:
 * https://github.com/kwmorris/DnD/
