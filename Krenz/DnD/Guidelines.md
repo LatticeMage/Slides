@@ -55,6 +55,9 @@ layout: slides
   * https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Monsters/
 * ex: [shop](https://github.com/kwmorris/DnD/blob/master/5e/D%26D%20Shop%20Catalog%2C%20V-1.8.pdf)
 
+<img src="./Guidelines/char%20card.png">
+
+
 </div>
 
 
