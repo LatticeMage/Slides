@@ -53,7 +53,8 @@ layout: slides
 
 * 參考版面
   * https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Monsters/
-* ex: [shop](https://github.com/kwmorris/DnD/blob/master/5e/D%26D%20Shop%20Catalog%2C%20V-1.8.pdf)
+* [語言](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Multiclassing.md)、[陣營](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Alignment.md)
+* [shop](https://github.com/kwmorris/DnD/blob/master/5e/D%26D%20Shop%20Catalog%2C%20V-1.8.pdf)
 
 <img src="./Guidelines/char%20card.png">
 
@@ -90,8 +91,12 @@ layout: slides
 
 * 城主會依照NPC角色卡去給予玩家互動反饋
   * 不一定每格都要填滿
-  * 可以加入作息，ex: 早上打獵、下午喝茶、晚上睡覺
+  * 可以加入作息
+    * ex: 早上打獵、下午喝茶、晚上睡覺
+  * 越詳細越好
+    * ex: 不夠帥不想回應、需要某條件或物品、山賊要邪惡陣營才能合作
 
+舉例：  
 <iframe src="https://posetmage.com/Portfolio/StM4H4/05/First/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://posetmage.com/Portfolio/StM4H4/05/Second/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://posetmage.com/Portfolio/StM4H4/07/" width="700" height="1200px" style="background-color: white;"></iframe>
