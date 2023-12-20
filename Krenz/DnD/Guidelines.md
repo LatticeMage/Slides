@@ -127,12 +127,10 @@ layout: slides
 * CC0素材
   * https://opengameart.org/
 * 繪製地圖
-  * maptool
+  * [tile map editor](https://www.mapeditor.org/)
 
 <img src="./Guidelines/opengameart.png" width="600">
 
-<img src="https://i.ytimg.com/vi/nbKCzseBgTI/sddefault.jpg" width="600">
-
-source:[Maptool The Simple Way (Updated)](https://www.youtube.com/watch?app=desktop&v=nbKCzseBgTI)
+<img src="https://www.mapeditor.org/img/screenshot-front.png" width="600">
 
 </div>
