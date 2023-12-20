@@ -34,7 +34,7 @@ layout: slides
 * xdy
   * <img src="./Guidelines/3d3.png">
   * <img src="./Guidelines/3d7plus5.png">
-* d20 <iframe src=https://g.co/kgs/WVMCHr">
+* d20 <img src="https://pawleystudios.com/wp-content/uploads/2020/07/d20-dice-01.png" width="64">
   * 20 完全成功
   * 1 完全失敗
   * 事件門檻
@@ -66,8 +66,8 @@ layout: slides
 
 ## NPC 角色卡
 
-<iframe src="https://posetmage.com/Portfolio/StM4H4/05/First/Grumm.html" width="400" height="600px" style="background-color: white;"></iframe>
-<iframe src="https://posetmage.com/Portfolio/StM4H4/05/Second/Grumm.html" width="400" height="600px" style="background-color: white;"></iframe>
+<iframe src="https://posetmage.com/Portfolio/StM4H4/05/First/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
+<iframe src="https://posetmage.com/Portfolio/StM4H4/05/Second/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://posetmage.com/Portfolio/StM4H4/07/" width="500" height="1200px" style="background-color: white;"></iframe>
 
 
@@ -84,14 +84,23 @@ layout: slides
   * Markdown
   * Obisidian, Hackmd.io .... 
 
+<img src="./Guidelines/markdown.png" width="400">
+
 </div>
 
 
 <div class="slide">
+
 ## 地圖工具
 * CC0素材
   * https://opengameart.org/
 * 繪製地圖
-  * 
+  * maptool
+
+<img src="./Guidelines/opengameart.png" width="400">
+
+<img src="https://i.ytimg.com/vi/nbKCzseBgTI/sddefault.jpg" width="400">
+
+source:[Maptool The Simple Way (Updated)](https://www.youtube.com/watch?app=desktop&v=nbKCzseBgTI)
 
 </div>
