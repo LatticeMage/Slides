@@ -91,7 +91,7 @@ layout: slides
 
 <iframe src="https://posetmage.com/Portfolio/StM4H4/05/First/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://posetmage.com/Portfolio/StM4H4/05/Second/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
-<iframe src="https://posetmage.com/Portfolio/StM4H4/07/" width="500" height="1200px" style="background-color: white;"></iframe>
+<iframe src="https://posetmage.com/Portfolio/StM4H4/07/" width="700" height="1200px" style="background-color: white;"></iframe>
 
 
 </div>
@@ -108,7 +108,7 @@ layout: slides
   * Markdown
   * Obisidian, Hackmd.io .... 
 
-<img src="./Guidelines/markdown.png" width="400">
+<img src="./Guidelines/markdown.png" width="600">
 
 </div>
 
@@ -121,9 +121,9 @@ layout: slides
 * 繪製地圖
   * maptool
 
-<img src="./Guidelines/opengameart.png" width="400">
+<img src="./Guidelines/opengameart.png" width="600">
 
-<img src="https://i.ytimg.com/vi/nbKCzseBgTI/sddefault.jpg" width="400">
+<img src="https://i.ytimg.com/vi/nbKCzseBgTI/sddefault.jpg" width="600">
 
 source:[Maptool The Simple Way (Updated)](https://www.youtube.com/watch?app=desktop&v=nbKCzseBgTI)
 
