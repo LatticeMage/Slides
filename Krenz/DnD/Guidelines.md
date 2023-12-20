@@ -16,9 +16,13 @@ layout: slides
 
 
 
-<iframe src="https://github.com/kwmorris/DnD/blob/master/5e/One%20Shots/Snowmen%20and%20Snow%20Golems.pdf" width="600" height="400"></iframe>  
-[Snow Golems](https://github.com/kwmorris/DnD/blob/master/5e/One%20Shots/Snowmen%20and%20Snow%20Golems.pdf)
+<img src="./Guidelines/card%20example.png" width="300">
+<img src="./Guidelines/monster.png" width="300">
 
+<img src="./Guidelines/wild_sheep.png" width="300">
+
+### reference:
+* https://github.com/kwmorris/DnD/
 
 </div>
 
@@ -29,6 +33,18 @@ layout: slides
 
 
 </div>
+
+
+<div class="slide">
+# 遊戲劇本注意事項
+* 遊戲時長要先規定好
+* 數值為主，劇情為輔，遊玩過程是由玩家跟城主去或的劇情
+* 
+
+
+</div>
+
+
 
 <div class="slide">
 ## 協作工具
