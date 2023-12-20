@@ -31,6 +31,9 @@ layout: slides
 <div class="slide">
 # 骰子
 
+<img src="./Guidelines/3d3.png">
+
+<img src="./Guidelines/3d7plus5.png">
 
 </div>
 
