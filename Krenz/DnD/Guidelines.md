@@ -69,7 +69,7 @@ layout: slides
 ## 遊戲劇本注意事項
 
 * 先決定好核心體驗
-  * ex: 大亂鬥? boss fight? 大主線劇情體驗? 人情冷暖? 宮鬥?
+  * ex: 大亂鬥? boss fight? 大主線劇情體驗? 人情冷暖? 宮鬥? 體驗精神分裂?
 * 時長要先規定好
   * 遊戲進程規劃以節點為主
     * ex: 一個節點30min，分為探索20min+打王10min
@@ -136,5 +136,15 @@ layout: slides
 <img src="./Guidelines/opengameart.png" width="600">
 
 <img src="https://www.mapeditor.org/img/screenshot-front.png" width="600">
+
+</div>
+
+
+<div class="slide">
+
+## 豐富系統
+* 神、歷史、神話、神殿、祈禱......
+* 政體、國家、結構、歷史......
+* 貨幣、經濟、金融.....
 
 </div>
