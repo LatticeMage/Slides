@@ -21,9 +21,9 @@
 title: Slides
 email: latticemage@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-   "Slides of LatticeMage/PosetMage"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://slides.posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
+   "LatticeMage slides"
+baseurl: "slides" # the subpath of your site, e.g. /blog
+url: "https://lattice.posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 repository: latticemage/Slides
