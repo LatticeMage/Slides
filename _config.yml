@@ -55,9 +55,12 @@ plugins:
   - jekyll-external-links
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-category-pages
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-seo-tag
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
