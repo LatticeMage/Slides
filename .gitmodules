@@ -1,3 +1,4 @@
 [submodule "_shared"]
 	path = _shared
 	url = https://github.com/LatticeMage/jekyll-shared-components.git
+	branch = main
