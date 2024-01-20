@@ -1,4 +1,4 @@
-# Licenses
+# License Types
 
 > 1 / 1
 > 
