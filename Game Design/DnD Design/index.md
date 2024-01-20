@@ -2,7 +2,7 @@
 layout: slides
 ---
 
-# DnD éŠæˆ²è¨­è¨ˆ
+# DnD ¹CÀ¸³]­p
 
 <div class="slide">
 <img src="./Guidelines/dnd.jpg" width="600">
@@ -12,7 +12,7 @@ layout: slides
 
 <div class="slide">
 
-## æ‰‹å†Š
+## ¤â¥U
 
 <img src="https://www.dndbeyond.com/avatars/10435/389/637248131811862290.jpeg" width="250"><img src="https://online.anyflip.com/vrtg/qtfq/files/mobile/1.jpg" width="250"><img src="https://target.scene7.com/is/image/Target/GUEST_08da8349-7a09-45f3-983d-db95205b9b0e" width="250">
 
@@ -22,9 +22,9 @@ layout: slides
 <img src="./Guidelines/wild_sheep.png" width="300">
 
 
-* èˆ‰ä¾‹
-  * æŸå¾·ä¹‹é–€ã€å†°é¢¨ä¹‹è°·ã€çµ•å†¬åŸä¹‹å¤œ ä½¿ç”¨é‡‘ç›’å­çš„è¢«éºå¿˜åœ‹åº¦
-  * ç•°åŸŸé®é­‚æ›² ä½¿ç”¨ç•°åŸŸ
+* Á|¨Ò
+  * ¬f¼w¤§ªù¡B¦B­·¤§¨¦¡Bµ´¥V«°¤§©] ¨Ï¥Îª÷²°¤lªº³Q¿ò§Ñ°ê«×
+  * ²§°ìÂí»î¦± ¨Ï¥Î²§°ì
 
 ### reference:
 * https://github.com/kwmorris/DnD/
@@ -34,27 +34,27 @@ layout: slides
 
 <div class="slide">
 
-## éª°å­
+## »ë¤l
 
 * xdy
   * <img src="./Guidelines/3d3.png">
   * <img src="./Guidelines/3d7plus5.png">
 * d20 <img src="https://pawleystudios.com/wp-content/uploads/2020/07/d20-dice-01.png" width="64">
-  * 20 å®Œå…¨æˆåŠŸ
-  * 1 å®Œå…¨å¤±æ•—
+  * 20 §¹¥ş¦¨¥\
+  * 1 §¹¥ş¥¢±Ñ
 * DC(difficult class)
 
 </div>
 
 <div class="slide">
 
-## æ•¸å€¼å¡
+## ¼Æ­È¥d
 
-è§’è‰²ã€æ€ªç‰©ã€å•†åº— çš†è¦å›ºå®šç‰ˆé¢
+¨¤¦â¡B©Çª«¡B°Ó©± ¬Ò­n©T©wª©­±
 
-* åƒè€ƒç‰ˆé¢
+* °Ñ¦Òª©­±
   * https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Monsters/
-* [èªè¨€](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Languages.md)ã€[é™£ç‡Ÿ](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Alignment.md)
+* [»y¨¥](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Languages.md)¡B[°}Àç](https://github.com/OldManUmby/DND.SRD.Wiki/blob/master/Characterizations/Alignment.md)
 * [shop](https://github.com/kwmorris/DnD/blob/master/5e/D%26D%20Shop%20Catalog%2C%20V-1.8.pdf)
 
 <img src="./Guidelines/char%20card.png">
@@ -66,40 +66,40 @@ layout: slides
 
 <div class="slide">
 
-## éŠæˆ²åŠ‡æœ¬æ³¨æ„äº‹é …
+## ¹CÀ¸¼@¥»ª`·N¨Æ¶µ
 
-* å…ˆæ±ºå®šå¥½æ ¸å¿ƒé«”é©—
-  * ex: å¤§äº‚é¬¥? boss fight? å¤§ä¸»ç·šåŠ‡æƒ…é«”é©—? äººæƒ…å†·æš–? å®®é¬¥? é«”é©—ç²¾ç¥åˆ†è£‚?
-* æ™‚é•·è¦å…ˆè¦å®šå¥½
-  * éŠæˆ²é€²ç¨‹è¦åŠƒä»¥ç¯€é»ç‚ºä¸»
-    * ex: ä¸€å€‹ç¯€é»30minï¼Œåˆ†ç‚ºæ¢ç´¢20min+æ‰“ç‹10min
-    * ex: 2hr = 4å€‹å¤§ç¯€é»
-* æ•¸å€¼ç‚ºä¸»ï¼ŒåŠ‡æƒ…ç‚ºè¼”
-  * éŠç©éç¨‹æ˜¯ç”±ç©å®¶è·ŸåŸä¸»å»ç²å¾—åŠ‡æƒ…
-    * ç’°å¢ƒäº‹ä»¶äº‹ä»¶é–€æª»
-    * è¶Šè©³ç›¡è¶Šå¥½
-* åˆ†æ”¯ç‚ºä¸»è¦ï¼Œé•·åº¦ç‚ºæ¬¡è¦
-  * å–®ä¸€äº‹ä»¶åˆ†æ”¯å¯èƒ½æ€§è¶Šå¤šè¶Šå¥½
-  * å–®ä¸€å€åŸŸç´°ç¯€è¶Šå¤šè¶Šå¥½
-  * å–®ä¸€ç‰©ä»¶ç´°ç¯€è¶Šå¤šè¶Šå¥½
+* ¥ı¨M©w¦n®Ö¤ßÅéÅç
+  * ex: ¤j¶Ã°«? boss fight? ¤j¥D½u¼@±¡ÅéÅç? ¤H±¡§N·x? ®c°«? ÅéÅçºë¯«¤Àµõ?
+* ®Éªø­n¥ı³W©w¦n
+  * ¹CÀ¸¶iµ{³W¹º¥H¸`ÂI¬°¥D
+    * ex: ¤@­Ó¸`ÂI30min¡A¤À¬°±´¯Á20min+¥´¤ı10min
+    * ex: 2hr = 4­Ó¤j¸`ÂI
+* ¼Æ­È¬°¥D¡A¼@±¡¬°»²
+  * ¹Cª±¹Lµ{¬O¥Ñª±®a¸ò«°¥D¥hÀò±o¼@±¡
+    * Àô¹Ò¨Æ¥ó¨Æ¥óªùÂe
+    * ¶V¸ÔºÉ¶V¦n
+* ¤À¤ä¬°¥D­n¡Aªø«×¬°¦¸­n
+  * ³æ¤@¨Æ¥ó¤À¤ä¥i¯à©Ê¶V¦h¶V¦n
+  * ³æ¤@°Ï°ì²Ó¸`¶V¦h¶V¦n
+  * ³æ¤@ª«¥ó²Ó¸`¶V¦h¶V¦n
 
-æ•´é«”æ•…äº‹å¯ä»¥è€ƒæ…®ä½¿ç”¨ [èµ·æ‰¿è½‰åˆ](https://knowledge.posetmage.com/Art/StoryTelling/Blake%20Snyder.html)
+¾ãÅé¬G¨Æ¥i¥H¦Ò¼{¨Ï¥Î [°_©ÓÂà¦X](https://knowledge.posetmage.com/Art/StoryTelling/Blake%20Snyder.html)
 </div>
 
 
 
 <div class="slide">
 
-## NPC è§’è‰²å¡
+## NPC ¨¤¦â¥d
 
-* åŸä¸»æœƒä¾ç…§NPCè§’è‰²å¡å»çµ¦äºˆç©å®¶äº’å‹•åé¥‹
-  * ä¸ä¸€å®šæ¯æ ¼éƒ½è¦å¡«æ»¿
-  * å¯ä»¥åŠ å…¥ä½œæ¯
-    * ex: æ—©ä¸Šæ‰“çµã€ä¸‹åˆå–èŒ¶ã€æ™šä¸Šç¡è¦º
-  * è¶Šè©³ç´°è¶Šå¥½
-    * ex: ä¸å¤ å¸¥ä¸æƒ³å›æ‡‰ã€éœ€è¦æŸæ¢ä»¶æˆ–ç‰©å“ã€å±±è³Šè¦é‚ªæƒ¡é™£ç‡Ÿæ‰èƒ½åˆä½œ
+* «°¥D·|¨Ì·ÓNPC¨¤¦â¥d¥hµ¹¤©ª±®a¤¬°Ê¤ÏõX
+  * ¤£¤@©w¨C®æ³£­n¶ñº¡
+  * ¥i¥H¥[¤J§@®§
+    * ex: ¦­¤W¥´Ây¡B¤U¤È³Ü¯ù¡B±ß¤WºÎÄ±
+  * ¶V¸Ô²Ó¶V¦n
+    * ex: ¤£°÷«Ó¤£·Q¦^À³¡B»İ­n¬Y±ø¥ó©Îª««~¡B¤s¸é­n¨¸´c°}Àç¤~¯à¦X§@
 
-èˆ‰ä¾‹ï¼š  
+Á|¨Ò¡G  
 <iframe src="https://posetmage.com/Portfolio/StM4H4/05/First/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://posetmage.com/Portfolio/StM4H4/05/Second/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://posetmage.com/Portfolio/StM4H4/07/" width="700" height="1200px" style="background-color: white;"></iframe>
@@ -110,12 +110,12 @@ layout: slides
 
 <div class="slide">
 
-## å”ä½œå·¥å…·
+## ¨ó§@¤u¨ã
 
-* ç‰ˆæœ¬å”åŒ
-  * æ¨™è¨»ç‰ˆè™Ÿ
-  * åŒæ­¥æ›´æ–° ex: Github
-* æ–‡å­—ç·¨è¼¯
+* ª©¥»¨ó¦P
+  * ¼Ğµùª©¸¹
+  * ¦P¨B§ó·s ex: Github
+* ¤å¦r½s¿è
   * Markdown
   * Obsidian, Hackmd.io .... 
 
@@ -126,10 +126,10 @@ layout: slides
 
 <div class="slide">
 
-## åœ°åœ–å·¥å…·
-* CC0ç´ æ
+## ¦a¹Ï¤u¨ã
+* CC0¯À§÷
   * https://opengameart.org/
-* ç¹ªè£½åœ°åœ–
+* Ã¸»s¦a¹Ï
   * [tile map editor](https://www.mapeditor.org/)
   * unity, godot: tilemap export to image
 
@@ -142,9 +142,9 @@ layout: slides
 
 <div class="slide">
 
-## è±å¯Œç³»çµ±
-* ç¥ã€æ­·å²ã€ç¥è©±ã€ç¥æ®¿ã€ç¥ˆç¦±......
-* æ”¿é«”ã€åœ‹å®¶ã€çµæ§‹ã€æ­·å²......
-* è²¨å¹£ã€ç¶“æ¿Ÿã€é‡‘è.....
+## Â×´I¨t²Î
+* ¯«¡B¾ú¥v¡B¯«¸Ü¡B¯«·µ¡B¬èÃ«......
+* ¬FÅé¡B°ê®a¡Bµ²ºc¡B¾ú¥v......
+* ³f¹ô¡B¸gÀÙ¡Bª÷¿Ä.....
 
 </div>

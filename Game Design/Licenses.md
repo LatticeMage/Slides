@@ -1,3 +1,5 @@
+# Licenses
+
 > 1 / 1
 > 
 > help me compare CC0, BY,NC,SA,ND to WTFPL, GPL, LGPL, MIT such as WTFPL is like CC0, and GPL is like SA
