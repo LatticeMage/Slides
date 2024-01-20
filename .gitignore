@@ -5,7 +5,6 @@ _site/
 vendor
 .vs/
 *.zip
-*.bkp
+.obsidian/
 
-*.html.bkp
-*.html.dtmp
+Gemfile.lock
