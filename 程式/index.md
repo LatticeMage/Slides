@@ -1,5 +1,3 @@
 ---
 layout: directory
 ---
-
-# Business

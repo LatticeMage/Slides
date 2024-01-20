@@ -1,5 +1,3 @@
 ---
 layout: directory
 ---
-
-# 通用

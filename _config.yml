@@ -20,18 +20,21 @@
 
 title: Slides of LatticeMage
 email: latticemage@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-   "LatticeMage slides"
-url: "https://slides.posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
-repository: latticemage/slides
+url: "https://lattice.posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Slides" # the subpath of your site, e.g. /blog
+
+repository: latticemage/Slides
 
 includes_dir: _shared/_includes
 layouts_dir: _shared/_layouts
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
 
 collections:
   directories:
@@ -45,7 +48,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "notes"
 
 exclude:
   - "*.mm.md"
