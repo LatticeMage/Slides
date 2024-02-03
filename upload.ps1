@@ -1,6 +1,11 @@
-cd _shared
+cd _includes
 ./upload.bat
 cd ../
+
+cd _layouts
+./upload.bat
+cd ../
+
 
 git config --local user.name "LatticeMage"
 git config --local user.email "LatticeMage@gmail.com"

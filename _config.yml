@@ -19,16 +19,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Slides from LatticeMage
-email: latticemage@gmail.com
-
-
+email: lattice@posetmage.com
 url: "https://lattice.posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/Slides" # the subpath of your site, e.g. /blog
-
 repository: latticemage/Slides
 
-includes_dir: _shared/_includes
-layouts_dir: _shared/_layouts
+social:
+  - platform: envelope
+    url: mailto:lattice@posetmage.com
+  - platform: youtube
+    url: https://youtube.com/@latticemage
+  - platform: facebook
+    url: https://facebook.com/latticemage
+  - platform: twitter
+    url: https://twitter.com/latticemage
 
 # Build settings
 remote_theme: jekyll/minima
