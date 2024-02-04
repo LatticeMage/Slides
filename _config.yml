@@ -21,9 +21,30 @@
 title: LatticeMage
 email: latticemage@gmail.com
 url: https://lattice.posetmage.com # the base hostname & protocol for your site, e.g. http://example.com
+slogan: ΔS > 0
+
 description: Slides
 baseurl: /Slides # the subpath of your site, e.g. /blog
 repository: latticemage/Slides
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
+
+exclude:
+  - "*.mm.md"
+
+kramdown:
+  parse_block_html: true
+  
+collections:
+  directories:
+    output: true
 
 social:
   - platform: envelope
@@ -40,23 +61,6 @@ remote_theme: jekyll/minima
 
 minima:
   skin: dark
-
-collections:
-  directories:
-    output: true
-
-kramdown:
-  parse_block_html: true
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "base"
-
-exclude:
-  - "*.mm.md"
 
 plugins:
   - jekyll-external-links

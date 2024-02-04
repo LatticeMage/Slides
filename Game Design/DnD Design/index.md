@@ -100,9 +100,8 @@ layout: slides
     * ex: 不夠帥不想回應、需要某條件或物品、山賊要邪惡陣營才能合作
 
 舉例：  
-<iframe src="https://posetmage.com/Portfolio/StM4H4/05/First/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
-<iframe src="https://posetmage.com/Portfolio/StM4H4/05/Second/Grumm.html" width="350" height="600px" style="background-color: white;"></iframe>
-<iframe src="https://posetmage.com/Portfolio/StM4H4/07/" width="700" height="1200px" style="background-color: white;"></iframe>
+<iframe src="https://ai.posetmage.com/Practice/StM4H4/05/First/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
+<iframe src="https://ai.posetmage.com/Practice/StM4H4/05/Second/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
 
 
 </div>
