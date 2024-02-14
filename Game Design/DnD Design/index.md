@@ -90,18 +90,14 @@ layout: slides
 
 <div class="slide">
 
-## NPC 角色卡
+## NPC 角色
 
 * 城主會依照NPC角色卡去給予玩家互動反饋
   * 不一定每格都要填滿
   * 可以加入作息
     * ex: 早上打獵、下午喝茶、晚上睡覺
   * 越詳細越好
-    * ex: 不夠帥不想回應、需要某條件或物品、山賊要邪惡陣營才能合作
-
-舉例：  
-<iframe src="https://ai.posetmage.com/Practice/StM4H4/05/First/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
-<iframe src="https://ai.posetmage.com/Practice/StM4H4/05/Second/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
+    * ex: 主角不夠帥不想回應、需要某條件或物品、山賊要邪惡陣營才能合作
 
 </div>
 
@@ -110,6 +106,10 @@ layout: slides
 ## 劇本、角色工具
 
 [表格轉換](https://posetmage.com/GameDesign/Tool/)
+
+舉例：  
+<iframe src="https://ai.posetmage.com/Practice/StM4H4/05/First/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
+<iframe src="https://ai.posetmage.com/Practice/StM4H4/05/Second/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
 
 </div>
 
