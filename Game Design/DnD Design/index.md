@@ -103,6 +103,13 @@ layout: slides
 <iframe src="https://ai.posetmage.com/Practice/StM4H4/05/First/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
 <iframe src="https://ai.posetmage.com/Practice/StM4H4/05/Second/Grumm.html" width="100%" height="600px" style="background-color: white;"></iframe>
 
+</div>
+
+<div class="slide">
+
+## 劇本、角色工具
+
+[表格轉換](https://posetmage.com/GameDesign/Tool/)
 
 </div>
 
