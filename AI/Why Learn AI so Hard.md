@@ -1,5 +1,5 @@
 ---
-layout: slides
+
 ---
 
 # Why Learn AI so Hard

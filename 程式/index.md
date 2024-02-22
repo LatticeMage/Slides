@@ -1,3 +1,3 @@
 ---
-layout: directory
+layout: page/note/directory
 ---

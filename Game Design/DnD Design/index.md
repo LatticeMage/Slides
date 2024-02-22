@@ -1,5 +1,5 @@
 ---
-layout: slides
+
 ---
 
 # DnD 遊戲設計

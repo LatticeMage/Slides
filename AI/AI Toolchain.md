@@ -1,5 +1,5 @@
 ---
-layout: slides
+
 ---
 
 # 用AI創造自己的工作流

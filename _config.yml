@@ -34,7 +34,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "base"
+      layout: "page/note/slides"
 
 exclude:
   - "*.mm.md"
