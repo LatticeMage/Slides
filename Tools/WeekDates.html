@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Dates Display with Tab Copy</title>
+</head>
+<body>
+    <div id="weekDates"></div>
+    <button onclick="copyDatesWithTabs()">Copy Dates with Tabs</button>
+
+    <script>
+        // Function to add days to a date
+        function addDays(date, days) {
+            var result = new Date(date);
+            result.setDate(result.getDate() + days);
+            return result;
+        }
+
+        // Function to format date as MM/DD(Day abbreviation)
+        function formatDate(date) {
+            const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+            return `${date.getMonth() + 1}/${date.getDate()}(${dayNames[date.getDay()]})`;
+        }
+
+        // Global variable to hold the string with tabs for copying
+        let datesWithTabs = "";
+
+        // Calculate the current week's dates starting from Sunday
+        function generateWeekDates() {
+            const today = new Date();
+            const dayFromSunday = today.getDay(); // Sunday = 0, Monday = 1, etc.
+            const sunday = addDays(today, -dayFromSunday);
+
+            let output = "";
+            datesWithTabs = ""; // Reset global variable
+            for (let d = 0; d < 7; d++) {
+                const weekday = addDays(sunday, d);
+                const dateStr = formatDate(weekday);
+                output += `<span>${dateStr}</span>` + (d < 6 ? "&nbsp;&nbsp;&nbsp;&nbsp;" : ""); // Visual spacing for display
+                datesWithTabs += dateStr + (d < 6 ? "\t" : ""); // Actual tab for copying
+            }
+
+            document.getElementById('weekDates').innerHTML = output;
+        }
+
+        // Function to copy dates with tabs to clipboard
+        function copyDatesWithTabs() {
+            navigator.clipboard.writeText(datesWithTabs).then(function() {
+                //alert('Dates copied to clipboard with tabs!');
+            }, function(err) {
+                console.error('Could not copy dates: ', err);
+            });
+        }
+
+        // Run on page load
+        window.onload = function() {
+            generateWeekDates();
+        };
+    </script>
+</body>
+</html>
